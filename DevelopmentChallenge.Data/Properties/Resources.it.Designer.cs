@@ -39,7 +39,7 @@ namespace DevelopmentChallenge.Data.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DevelopmentChallenge.Data.Properties.Resources_it", typeof(Resources_it).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DevelopmentChallenge.Data.Properties.Resources.it2", typeof(Resources_it).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,25 @@ namespace DevelopmentChallenge.Data.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Lista vacía de formas!.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Cerchio.
+        /// </summary>
+        internal static string Círculo {
+            get {
+                return ResourceManager.GetString("Círculo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Cerchi.
+        /// </summary>
+        internal static string Círculos {
+            get {
+                return ResourceManager.GetString("Círculos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Elenco vuoto di forme!.
         /// </summary>
         internal static string errorEmptyForms {
             get {
@@ -70,29 +88,11 @@ namespace DevelopmentChallenge.Data.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Forma desconocida.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Forma sconosciuta.
         /// </summary>
         internal static string errorUnknownShape {
             get {
                 return ResourceManager.GetString("errorUnknownShape", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Cuadrado.
-        /// </summary>
-        internal static string formSquare {
-            get {
-                return ResourceManager.GetString("formSquare", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Cuadrados.
-        /// </summary>
-        internal static string ouputSquares {
-            get {
-                return ResourceManager.GetString("ouputSquares", resourceCulture);
             }
         }
         
@@ -106,24 +106,6 @@ namespace DevelopmentChallenge.Data.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Círculo.
-        /// </summary>
-        internal static string outputCircle {
-            get {
-                return ResourceManager.GetString("outputCircle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Círculos.
-        /// </summary>
-        internal static string outputCircles {
-            get {
-                return ResourceManager.GetString("outputCircles", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Perimetro.
         /// </summary>
         internal static string outputPerimeter {
@@ -133,7 +115,7 @@ namespace DevelopmentChallenge.Data.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a formas.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a forme.
         /// </summary>
         internal static string outputShapes {
             get {
@@ -142,7 +124,7 @@ namespace DevelopmentChallenge.Data.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Reporte de Formas.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Report forme.
         /// </summary>
         internal static string outputShapesReport {
             get {
@@ -151,7 +133,7 @@ namespace DevelopmentChallenge.Data.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a TOTAL:.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a TOTALE.
         /// </summary>
         internal static string outputTotal {
             get {
@@ -160,7 +142,7 @@ namespace DevelopmentChallenge.Data.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Triángulo.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Triangolo.
         /// </summary>
         internal static string outputTriangle {
             get {
@@ -169,11 +151,74 @@ namespace DevelopmentChallenge.Data.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Triángulos.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Triangoli.
         /// </summary>
         internal static string outputTriangles {
             get {
                 return ResourceManager.GetString("outputTriangles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Quadrato.
+        /// </summary>
+        internal static string Quadrado {
+            get {
+                return ResourceManager.GetString("Quadrado", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Quadrati.
+        /// </summary>
+        internal static string Quadrados {
+            get {
+                return ResourceManager.GetString("Quadrados", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Rettangolo.
+        /// </summary>
+        internal static string Retângulo {
+            get {
+                return ResourceManager.GetString("Retângulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Trapezio.
+        /// </summary>
+        internal static string Trapézio {
+            get {
+                return ResourceManager.GetString("Trapézio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Triangolo scaleno.
+        /// </summary>
+        internal static string TrianguloEscaleno {
+            get {
+                return ResourceManager.GetString("TrianguloEscaleno", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Triangolo isoscele.
+        /// </summary>
+        internal static string TrianguloIsosceles {
+            get {
+                return ResourceManager.GetString("TrianguloIsosceles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Right Triangle.
+        /// </summary>
+        internal static string TrianguloRetangulo {
+            get {
+                return ResourceManager.GetString("TrianguloRetangulo", resourceCulture);
             }
         }
     }

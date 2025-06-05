@@ -100,7 +100,7 @@ namespace DevelopmentChallenge.Data.Classes
                         perimetroTriangulos += formas[i].CalcularPerimetro();
                     }
                 }
-                
+
                 sb.Append(ObtenerLinea(numeroCuadrados, areaCuadrados, perimetroCuadrados, Cuadrado, idioma));
                 sb.Append(ObtenerLinea(numeroCirculos, areaCirculos, perimetroCirculos, Circulo, idioma));
                 sb.Append(ObtenerLinea(numeroTriangulos, areaTriangulos, perimetroTriangulos, TrianguloEquilatero, idioma));

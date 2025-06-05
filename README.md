@@ -64,18 +64,26 @@ Entrega:
 # SOLUÇÃO
 
 • Atualizado para .NET 8
+
 ![image](https://github.com/user-attachments/assets/8bbf28b7-6f26-449e-b69e-471a11e1f6b0)
 
+
 • Adicionado Resources para diferentes idiomas incluindo (EN, ES, PT, IT)
+
 ![image](https://github.com/user-attachments/assets/f8ea9cef-feec-44ae-8999-c8ca9d504912)
 
-• Adicionado Arquivo JSON (shapes.json) para Formas Geométricas e suas Fórmulas facilitando a inclusão de novas formas geométricas.
+
+• Adicionado Arquivo JSON (shapes.json) para Formas Geométricas e suas Fórmulas facilitando a inclusão de novas formas geométricas (todos os triângulos, retângulo e trapézio)
+
 ![image](https://github.com/user-attachments/assets/04ba081c-0042-4001-b2f0-e4464c5a2415)
 
+
 • Adicionado Biblioteca NCalc-Edge para efetuar calculo a partir de expressão contida no arquivo JSON (shapes.json).
+
 ![image](https://github.com/user-attachments/assets/59840d1d-0a64-4960-904d-fce02c841b35)
 
-• Adicionado Formas Geométricas (todos os triângulos, retângulo e trapézio)
 
 • Teste em xUnit validando cálculos e tradução
+
 ![image](https://github.com/user-attachments/assets/6bbc3144-aff1-41ec-ae7e-d163efe332a4)
+

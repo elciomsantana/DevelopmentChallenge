@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="errorEmptyForms" xml:space="preserve">
-    <value>Empty list of shapes!</value>
+    <value>Lista vacía de formas!</value>
   </data>
   <data name="outputPerimeter" xml:space="preserve">
-    <value>Perimeter</value>
+    <value>Perimetro</value>
   </data>
   <data name="outputShapes" xml:space="preserve">
-    <value>shapes</value>
+    <value>formas</value>
   </data>
   <data name="outputShapesReport" xml:space="preserve">
-    <value>Shapes report</value>
+    <value>Reporte de Formas</value>
   </data>
   <data name="outputArea" xml:space="preserve">
     <value>Area</value>
   </data>
   <data name="Quadrado" xml:space="preserve">
-    <value>Square</value>
+    <value>Cuadrado</value>
   </data>
   <data name="Quadrados" xml:space="preserve">
-    <value>Squares</value>
+    <value>Cuadrados</value>
   </data>
   <data name="Círculo" xml:space="preserve">
-    <value>Circle</value>
+    <value>Círculo</value>
   </data>
   <data name="outputTotal" xml:space="preserve">
     <value>TOTAL</value>
   </data>
   <data name="Círculos" xml:space="preserve">
-    <value>Circles</value>
+    <value>Círculos</value>
   </data>
   <data name="outputTriangle" xml:space="preserve">
-    <value>Triangle</value>
+    <value>Triángulo</value>
   </data>
   <data name="outputTriangles" xml:space="preserve">
-    <value>Triangles</value>
+    <value>Triángulos</value>
   </data>
   <data name="errorUnknownShape" xml:space="preserve">
-    <value>Unknown shape</value>
+    <value>Forma desconocida</value>
   </data>
   <data name="TrianguloIsosceles" xml:space="preserve">
-    <value>Isosceles Triangle</value>
+    <value>Triángulo Isósceles</value>
   </data>
   <data name="TrianguloEscaleno" xml:space="preserve">
-    <value>Scalene Triangle</value>
+    <value>Triángulo Escaleno</value>
   </data>
   <data name="TrianguloRetangulo" xml:space="preserve">
-    <value>Right Triangle</value>
+    <value>Triángulo Rectángulo</value>
   </data>
   <data name="Retângulo" xml:space="preserve">
-    <value>Rectangle</value>
+    <value>Rectángulo</value>
   </data>
   <data name="Trapézio" xml:space="preserve">
-    <value>Trapezoid</value>
+    <value>Trapecio</value>
   </data>
 </root>

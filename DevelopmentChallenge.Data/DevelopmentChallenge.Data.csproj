@@ -10,13 +10,35 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="shapes.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="shapes.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="NCalc-Edge" Version="1.5.0" />
 
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" /> 
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Properties\Resources_es.Designer.cs">
-      <DependentUpon>Resources_es.resx</DependentUpon>
+    <Compile Update="Properties\Resources - Cópia.es.Designer.cs">
+      <DependentUpon>Resources.es.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Properties\Resources.pt.Designer.cs">
+      <DependentUpon>Resources.pt.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Properties\Resources.es.Designer.cs">
+      <DependentUpon>Resources.es.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
@@ -28,8 +50,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources_es.resx">
-      <LastGenOutput>Resources_es.Designer.cs</LastGenOutput>
+    <EmbeddedResource Update="Properties\Resources.it.resx">
+      <LastGenOutput>Resources - Cópia.es.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.pt.resx">
+      <LastGenOutput>Resources.pt.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.es.resx">
+      <LastGenOutput>Resources.es.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Properties\Resources.resx">

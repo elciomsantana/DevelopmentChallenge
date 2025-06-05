@@ -1,0 +1,50 @@
+[
+  {
+    "Nome": "Quadrado",
+    "AreaFormula": "lado * lado",
+    "PerimetroFormula": "4 * lado",
+    "Parametros": [ "lado" ]
+  },
+  {
+    "Nome": "Círculo",
+    "AreaFormula": "PI() * raio * raio",
+    "PerimetroFormula": "2 * PI() * raio",
+    "Parametros": [ "raio" ]
+  },
+  {
+    "Nome": "TrianguloEquilatero",
+    "AreaFormula": "(sqrt(3) / 4) * lado * lado",
+    "PerimetroFormula": "3 * lado",
+    "Parametros": [ "lado" ]
+  },
+  {
+    "Nome": "TrianguloIsosceles",
+    "AreaFormula": "(base * sqrt(lado * lado - (base * base) / 4)) / 2",
+    "PerimetroFormula": "2 * lado + base",
+    "Parametros": [ "lado", "base" ]
+  },
+  {
+    "Nome": "TrianguloEscaleno",
+    "AreaFormula": "let s = (a + b + c) / 2; sqrt(s * (s - a) * (s - b) * (s - c))",
+    "PerimetroFormula": "a + b + c",
+    "Parametros": [ "a", "b", "c" ]
+  },
+  {
+    "Nome": "TrianguloRetangulo",
+    "AreaFormula": "(base * altura) / 2",
+    "PerimetroFormula": "base + altura + sqrt(base * base + altura * altura)",
+    "Parametros": [ "base", "altura" ]
+  },
+  {
+    "Nome": "Retângulo",
+    "AreaFormula": "base * altura",
+    "PerimetroFormula": "(2 * base) +(2 * altura)",
+    "Parametros": [ "base", "altura" ]
+  },
+  {
+    "Nome": "Trapézio",
+    "AreaFormula": "((baseMaior + baseMenor) * altura) / 2",
+    "PerimetroFormula": "baseMaior + baseMenor + lado1 + lado2",
+    "Parametros": [ "baseMaior", "baseMenor", "lado1", "lado2", "altura" ]
+  }
+]

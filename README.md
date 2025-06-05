@@ -68,6 +68,7 @@ Entrega:
 • Adicionado Resources para diferentes idiomas incluindo (EN, ES, PT, IT)
 
 • Adicionado Arquivo JSON (shapes.json) para Formas Geométricas e suas Fórmulas facilitando a inclusão de novas formas geométricas.
+![image](https://github.com/user-attachments/assets/04ba081c-0042-4001-b2f0-e4464c5a2415)
 
 • Adicionado Biblioteca NCalc-Edge para efetuar calculo a partir de expressão contida no arquivo JSON (shapes.json).
 

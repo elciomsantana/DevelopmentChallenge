@@ -41,3 +41,13 @@ Entrega:
 • Suba sua solução para um repositório público no GitHub ou GitLab;
 • Mantenha o README atualizado, explicando as decisões que você tomou;
 • Avise quando concluir.
+
+
+# SOLUÇÃO
+
+• Atualizado para .NET 8
+• Adicionado Resources para diferentes idiomas incluindo (EN, ES, PT, IT)
+• Adicionado Arquivo JSON (shapes.json) para Formas Geométricas e suas Fórmulas facilitando a inclusão de novas formas geométricas.
+• Adicionado Biblioteca NCalc-Edge para efetuar calculo a partir de expressão contida no arquivo JSON (shapes.json).
+• Adicionado Formas Geométricas (todos os triângulos, retângulo e trapézio)
+• Teste em xUnit validando cálculos e tradução

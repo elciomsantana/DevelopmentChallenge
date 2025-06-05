@@ -64,6 +64,7 @@ Entrega:
 # SOLUÇÃO
 
 • Atualizado para .NET 8
+![image](https://github.com/user-attachments/assets/8bbf28b7-6f26-449e-b69e-471a11e1f6b0)
 
 • Adicionado Resources para diferentes idiomas incluindo (EN, ES, PT, IT)
 ![image](https://github.com/user-attachments/assets/f8ea9cef-feec-44ae-8999-c8ca9d504912)
@@ -77,3 +78,4 @@ Entrega:
 • Adicionado Formas Geométricas (todos os triângulos, retângulo e trapézio)
 
 • Teste em xUnit validando cálculos e tradução
+![image](https://github.com/user-attachments/assets/6bbc3144-aff1-41ec-ae7e-d163efe332a4)

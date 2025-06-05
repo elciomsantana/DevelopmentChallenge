@@ -64,6 +64,7 @@ Entrega:
 # SOLUÇÃO
 
 • Atualizado para .NET 8
+
 • Adicionado Resources para diferentes idiomas incluindo (EN, ES, PT, IT)
 
 • Adicionado Arquivo JSON (shapes.json) para Formas Geométricas e suas Fórmulas facilitando a inclusão de novas formas geométricas.

@@ -66,11 +66,13 @@ Entrega:
 • Atualizado para .NET 8
 
 • Adicionado Resources para diferentes idiomas incluindo (EN, ES, PT, IT)
+![image](https://github.com/user-attachments/assets/f8ea9cef-feec-44ae-8999-c8ca9d504912)
 
 • Adicionado Arquivo JSON (shapes.json) para Formas Geométricas e suas Fórmulas facilitando a inclusão de novas formas geométricas.
 ![image](https://github.com/user-attachments/assets/04ba081c-0042-4001-b2f0-e4464c5a2415)
 
 • Adicionado Biblioteca NCalc-Edge para efetuar calculo a partir de expressão contida no arquivo JSON (shapes.json).
+![image](https://github.com/user-attachments/assets/59840d1d-0a64-4960-904d-fce02c841b35)
 
 • Adicionado Formas Geométricas (todos os triângulos, retângulo e trapézio)
 
